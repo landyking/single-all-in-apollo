@@ -6,7 +6,7 @@ Through it you can customize the JDBC parameters for `Apollo Docker Image`.
 ## Build image
 ```
 cd single-all-in-apollo/
-docker build -t landyking/single-all-in-apollo:0.1 .
+docker build -t landykingdom/single-all-in-apollo:0.1 .
 ```
 
 ## Run container
@@ -18,12 +18,12 @@ docker build -t landyking/single-all-in-apollo:0.1 .
   docker run -p 8080:8080 -p 8070:8070 \
    -e CONFIG_DB_HOST_PORT=192.168.50.72:3306 -e CONFIG_DB_USER=root -e CONFIG_DB_PASS=123456 \
    -e PORTAL_DB_HOST_PORT=192.168.50.72:3306 -e PORTAL_DB_USER=root -e PORTAL_DB_PASS=123456 \
-   --rm landyking/single-all-in-apollo:0.1
+   --rm landykingdom/single-all-in-apollo:0.1
   ```
   **start and run in background**
   ```
     docker run -p 8080:8080 -p 8070:8070 \
    -e CONFIG_DB_HOST_PORT=192.168.50.72:3306 -e CONFIG_DB_USER=root -e CONFIG_DB_PASS=123456 \
    -e PORTAL_DB_HOST_PORT=192.168.50.72:3306 -e PORTAL_DB_USER=root -e PORTAL_DB_PASS=123456 \
-   -d landyking/single-all-in-apollo:0.1
+   -d landykingdom/single-all-in-apollo:0.1
   ```
