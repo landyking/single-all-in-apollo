@@ -27,3 +27,8 @@ docker build -t landykingdom/single-all-in-apollo:0.1 .
    -e PORTAL_DB_HOST_PORT=192.168.50.72:3306 -e PORTAL_DB_USER=root -e PORTAL_DB_PASS=123456 \
    -d landykingdom/single-all-in-apollo:0.1
   ```
+- Open `http://localhost:8070` and login with `apollo/admin`.
+
+## How to use apollo
+
+See here: https://github.com/ctripcorp/apollo.
